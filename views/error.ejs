@@ -1,0 +1,20 @@
+<% layout("./layouts/boilerplate") %>
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 70vh;">
+  <div class="col-md-8">
+    
+    <div class="alert alert-danger shadow text-center">
+      <!-- <h4 class="alert-heading mb-3">Oops! Something went wrong</h4> -->
+      <p class="mb-2">
+        <%= err.message %>
+      </p>
+
+      <hr>
+
+      <a href="/listings" class="btn btn-outline-danger">
+        Go Back to Listings
+      </a>
+    </div>
+
+  </div>
+</div>

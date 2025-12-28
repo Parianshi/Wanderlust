@@ -1,0 +1,214 @@
+  html, body{
+    height: 100% ;
+    width: 100% ;
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 0px;
+}
+
+.container{
+    padding-left:1px !important;
+    padding-right: 1px !important;
+    padding-top: 0.25rem;
+    padding-bottom: 1.5rem;
+}
+
+.custom-left {
+  padding-left: 50px !important; 
+  padding-right: 40px !important;
+}
+
+/*navbar styling */
+.navbar {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2.5rem;
+}
+
+.nav-link{
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    font-size: 1rem;
+    color: #222222 !important;
+}
+
+
+/* footer */
+.site-footer {
+  width: 100%;
+  margin-top: auto;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.f-info {
+    text-align: center;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    padding: 1rem 0;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+} 
+
+.card{
+    border:0 !important;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    height: 350px;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding:0 !important;
+    border:none !important;
+}
+
+.card-text p{
+    font-weight: 400;
+}
+
+#a{
+    text-decoration: none;
+}
+
+.add-btn{
+    background-color:#fe424d !important;
+    color:white !important;
+    border: none !important;
+}
+
+/* SHOW PAGE */
+.show-img {
+  height: 45vh;              /* BIG HERO IMAGE */
+  object-fit: cover;
+  border-radius: 1.2rem;
+  width: 100%;
+  display: block;
+}
+
+.show-card {
+    border: none !important;
+    border-radius: 0.75rem;
+    box-shadow: none !important;
+}
+
+.show-card:hover {
+    transform: none;
+}
+
+.show-card .card-body {
+    border: none !important;
+}
+
+.delete-btn{
+    margin-bottom: 0px;
+}
+
+.show-page {
+    padding-bottom:0 !important;
+    margin-bottom:0 !important;
+}
+
+.show-page.container{
+    padding-bottom: 0 !important;
+}
+
+.review-card {
+  border-radius: 12px;
+  border: 1px solid black !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+ #map {
+    height: 400px;
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+  }
+
+.leaflet-container img {
+  max-width: none !important;
+}
+
+
+/* Make Leaflet popup white, rounded, shadowed, similar to Airbnb */
+.leaflet-popup-content-wrapper {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 10px 15px;
+    max-width: 250px;
+}
+
+.leaflet-popup-content {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.leaflet-popup-content b {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.leaflet-popup-tip {
+    background-color: white; /* Triangle tip */
+}
+
+
+
